@@ -1,12 +1,12 @@
 {
   "name": "emmet-keybinding",
-  "displayName": "Emmet Keymap",
-  "description": "Keymap for Emmet on VS Code",
+  "displayName": "Emmet Keybindings",
+  "description": "Practical keybindings for Emmet on VS Code",
   "publisher": "agutierrezr",
   "author": {
     "name": "Andrés Gutiérrez"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "img/emmet-logo.png",
   "engines": {
     "vscode": "^1.50.0"

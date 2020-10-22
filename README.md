@@ -1,8 +1,8 @@
 # Emmet Keybindings for VS Code
 
-This plugin adds some new keyboard shortcuts for Emmet to improve your productivity.
+This extension helps you to improve you productivity thought new keyboard shortcuts.
 
-## Keybidings
+## Keybindings
 
 | Command                                 | Mac                                                         | Windows                                                      |
 | --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
