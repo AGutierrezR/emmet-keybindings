@@ -1,12 +1,12 @@
 {
   "name": "emmet-keybindings",
   "displayName": "Emmet Keybindings",
-  "description": "Improve your productivity thought new keyboard shortcuts for Emmet.",
+  "description": "Improve your productivity through new keyboard shortcuts for Emmet.",
   "publisher": "agutierrezr",
   "author": {
     "name": "Andrés Gutiérrez"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "media/emmet-logo.png",
   "engines": {
     "vscode": "^1.50.0"
