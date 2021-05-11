@@ -6,7 +6,7 @@
   "author": {
     "name": "Andrés Gutiérrez"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "media/emmet-logo.png",
   "engines": {
     "vscode": "^1.50.0"
@@ -137,6 +137,20 @@
         "win": "ctrl+m w",
         "key": "ctrl+m w",
         "command": "editor.emmet.action.wrapWithAbbreviation",
+        "when": "editorTextFocus"
+      },
+      {
+        "mac": "cmd+m /",
+        "win": "ctrl+m /",
+        "key": "ctrl+m /",
+        "command": "editor.emmet.action.toggleComment",
+        "when": "editorTextFocus"
+      },
+      {
+        "mac": "cmd+m c",
+        "win": "ctrl+m c",
+        "key": "ctrl+m c",
+        "command": "workbench.action.showEmmetCommands",
         "when": "editorTextFocus"
       }
     ]
