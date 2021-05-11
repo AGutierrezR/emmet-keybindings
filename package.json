@@ -6,7 +6,7 @@
   "author": {
     "name": "Andrés Gutiérrez"
   },
-  "version": "0.0.5",
+  "version": "1.0.0",
   "icon": "media/emmet-logo.png",
   "engines": {
     "vscode": "^1.50.0"
@@ -31,97 +31,113 @@
         "mac": "cmd+m i",
         "win": "ctrl+m i",
         "key": "ctrl+m i",
-        "command": "editor.emmet.action.balanceIn"
+        "command": "editor.emmet.action.balanceIn",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m o",
         "win": "ctrl+m o",
         "key": "ctrl+m o",
-        "command": "editor.emmet.action.balanceOut"
+        "command": "editor.emmet.action.balanceOut",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m e",
         "win": "ctrl+m e",
         "key": "ctrl+m e",
-        "command": "editor.emmet.action.evaluateMathExpression"
+        "command": "editor.emmet.action.evaluateMathExpression",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m m",
         "win": "ctrl+m m",
         "key": "ctrl+m m",
-        "command": "editor.emmet.action.matchTag"
+        "command": "editor.emmet.action.matchTag",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m k",
         "win": "ctrl+m k",
         "key": "ctrl+m k",
-        "command": "editor.emmet.action.nextEditPoint"
+        "command": "editor.emmet.action.nextEditPoint",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m j",
         "win": "ctrl+m j",
         "key": "ctrl+m j",
-        "command": "editor.emmet.action.prevEditPoint"
+        "command": "editor.emmet.action.prevEditPoint",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m l",
         "win": "ctrl+m l",
         "key": "ctrl+m l",
-        "command": "editor.emmet.action.mergeLines"
+        "command": "editor.emmet.action.mergeLines",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m r",
         "win": "ctrl+m r",
         "key": "ctrl+m r",
-        "command": "editor.emmet.action.reflectCSSValue"
+        "command": "editor.emmet.action.reflectCSSValue",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m backspace",
         "win": "ctrl+m backspace",
         "key": "ctrl+m backspace",
-        "command": "editor.emmet.action.removeTag"
+        "command": "editor.emmet.action.removeTag",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m oem_period",
         "win": "ctrl+m oem_period",
         "key": "ctrl+m oem_period",
-        "command": "editor.emmet.action.selectNextItem"
+        "command": "editor.emmet.action.selectNextItem",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m oem_comma",
         "win": "ctrl+m oem_comma",
         "key": "ctrl+m oem_comma",
-        "command": "editor.emmet.action.selectPrevItem"
+        "command": "editor.emmet.action.selectPrevItem",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m s",
         "win": "ctrl+m s",
         "key": "ctrl+m s",
-        "command": "editor.emmet.action.splitJoinTag"
+        "command": "editor.emmet.action.splitJoinTag",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m u",
         "win": "ctrl+m u",
         "key": "ctrl+m u",
-        "command": "editor.emmet.action.updateImageSize"
+        "command": "editor.emmet.action.updateImageSize",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m t",
         "win": "ctrl+m t",
         "key": "ctrl+m t",
-        "command": "editor.emmet.action.updateTag"
+        "command": "editor.emmet.action.updateTag",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m cmd+w",
         "win": "ctrl+m ctrl+w",
         "key": "ctrl+m ctrl+w",
-        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation",
+        "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m w",
         "win": "ctrl+m w",
         "key": "ctrl+m w",
-        "command": "editor.emmet.action.wrapWithAbbreviation"
+        "command": "editor.emmet.action.wrapWithAbbreviation",
+        "when": "editorTextFocus"
       }
     ]
   }
