@@ -6,7 +6,7 @@
   "author": {
     "name": "Andrés Gutiérrez"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "icon": "media/emmet-logo.png",
   "engines": {
     "vscode": "^1.50.0"
@@ -28,128 +28,128 @@
   "contributes": {
     "keybindings": [
       {
-        "mac": "cmd+m i",
-        "win": "ctrl+m i",
-        "key": "ctrl+m i",
+        "mac": "cmd+m cmd+i",
+        "win": "ctrl+m ctrl+i",
+        "key": "ctrl+m ctrl+i",
         "command": "editor.emmet.action.balanceIn",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m o",
-        "win": "ctrl+m o",
-        "key": "ctrl+m o",
+        "mac": "cmd+m cmd+o",
+        "win": "ctrl+m ctrl+o",
+        "key": "ctrl+m ctrl+o",
         "command": "editor.emmet.action.balanceOut",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m e",
-        "win": "ctrl+m e",
-        "key": "ctrl+m e",
+        "mac": "cmd+m cmd+e",
+        "win": "ctrl+m ctrl+e",
+        "key": "ctrl+m ctrl+e",
         "command": "editor.emmet.action.evaluateMathExpression",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m m",
-        "win": "ctrl+m m",
-        "key": "ctrl+m m",
+        "mac": "cmd+m cmd+m",
+        "win": "ctrl+m ctrl+m",
+        "key": "ctrl+m ctrl+m",
         "command": "editor.emmet.action.matchTag",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m k",
-        "win": "ctrl+m k",
-        "key": "ctrl+m k",
+        "mac": "cmd+m cmd+k",
+        "win": "ctrl+m ctrl+k",
+        "key": "ctrl+m ctrl+k",
         "command": "editor.emmet.action.nextEditPoint",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m j",
-        "win": "ctrl+m j",
-        "key": "ctrl+m j",
+        "mac": "cmd+m cmd+j",
+        "win": "ctrl+m ctrl+j",
+        "key": "ctrl+m ctrl+j",
         "command": "editor.emmet.action.prevEditPoint",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m l",
-        "win": "ctrl+m l",
-        "key": "ctrl+m l",
+        "mac": "cmd+m cmd+shift+m",
+        "win": "ctrl+m ctrl+shift+m",
+        "key": "ctrl+m ctrl+shift+m",
         "command": "editor.emmet.action.mergeLines",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m r",
-        "win": "ctrl+m r",
-        "key": "ctrl+m r",
+        "mac": "cmd+m cmd+r",
+        "win": "ctrl+m ctrl+r",
+        "key": "ctrl+m ctrl+r",
         "command": "editor.emmet.action.reflectCSSValue",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m backspace",
-        "win": "ctrl+m backspace",
-        "key": "ctrl+m backspace",
+        "mac": "cmd+m cmd+backspace",
+        "win": "ctrl+m ctrl+backspace",
+        "key": "ctrl+m ctrl+backspace",
         "command": "editor.emmet.action.removeTag",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m oem_period",
-        "win": "ctrl+m oem_period",
-        "key": "ctrl+m oem_period",
+        "mac": "cmd+m cmd+oem_period",
+        "win": "ctrl+m ctrl+oem_period",
+        "key": "ctrl+m ctrl+oem_period",
         "command": "editor.emmet.action.selectNextItem",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m oem_comma",
-        "win": "ctrl+m oem_comma",
-        "key": "ctrl+m oem_comma",
+        "mac": "cmd+m cmd+oem_comma",
+        "win": "ctrl+m ctrl+oem_comma",
+        "key": "ctrl+m ctrl+oem_comma",
         "command": "editor.emmet.action.selectPrevItem",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m s",
-        "win": "ctrl+m s",
-        "key": "ctrl+m s",
+        "mac": "cmd+m cmd+s",
+        "win": "ctrl+m ctrl+s",
+        "key": "ctrl+m ctrl+s",
         "command": "editor.emmet.action.splitJoinTag",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m u",
-        "win": "ctrl+m u",
-        "key": "ctrl+m u",
+        "mac": "cmd+m cmd+/",
+        "win": "ctrl+m ctrl+/",
+        "key": "ctrl+m ctrl+/",
+        "command": "editor.emmet.action.toggleComment",
+        "when": "editorTextFocus"
+      },
+      {
+        "mac": "cmd+m cmd+u",
+        "win": "ctrl+m ctrl+u",
+        "key": "ctrl+m ctrl+u",
         "command": "editor.emmet.action.updateImageSize",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m t",
-        "win": "ctrl+m t",
-        "key": "ctrl+m t",
+        "mac": "cmd+m cmd+t",
+        "win": "ctrl+m ctrl+t",
+        "key": "ctrl+m ctrl+t",
         "command": "editor.emmet.action.updateTag",
+        "when": "editorTextFocus"
+      },
+      {
+        "mac": "cmd+m cmd+l",
+        "win": "ctrl+m ctrl+l",
+        "key": "ctrl+m ctrl+l",
+        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation",
         "when": "editorTextFocus"
       },
       {
         "mac": "cmd+m cmd+w",
         "win": "ctrl+m ctrl+w",
         "key": "ctrl+m ctrl+w",
-        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation",
-        "when": "editorTextFocus"
-      },
-      {
-        "mac": "cmd+m w",
-        "win": "ctrl+m w",
-        "key": "ctrl+m w",
         "command": "editor.emmet.action.wrapWithAbbreviation",
         "when": "editorTextFocus"
       },
       {
-        "mac": "cmd+m /",
-        "win": "ctrl+m /",
-        "key": "ctrl+m /",
-        "command": "editor.emmet.action.toggleComment",
-        "when": "editorTextFocus"
-      },
-      {
-        "mac": "cmd+m c",
-        "win": "ctrl+m c",
-        "key": "ctrl+m c",
+        "mac": "cmd+m cmd+c",
+        "win": "ctrl+m ctrl+c",
+        "key": "ctrl+m ctrl+c",
         "command": "workbench.action.showEmmetCommands",
         "when": "editorTextFocus"
       }

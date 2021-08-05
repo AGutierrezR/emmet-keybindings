@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.0
+
+- Update keybindings
+
 ## 1.0.1
 
 - Add comment and command keybinding
