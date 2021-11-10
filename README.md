@@ -59,7 +59,7 @@ Balance (Outward / Inward):
 | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Balance (Inward)                        | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>I</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>I</kbd> |
 | Balance (Outward)                       | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>O</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>O</kbd> |
-| Evaluate Math Expression                | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>E</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>E</kbd> |
+| Evaluate Math Expression                | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>=</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>=</kbd> |
 | Go to Matching Pair                     | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>M</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>M</kbd> |
 | Go to Next Edit Point                   | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>K</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>K</kbd> |
 | Go to Previous Edit Point               | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>J</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>J</kbd> |

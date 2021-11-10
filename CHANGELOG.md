@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.2.0
+
+- Update keybindings (Evaluate Math Expression)
+- Add Increment/Decrement keybindings
+
 ## 1.1.0
 
 - Update keybindings
