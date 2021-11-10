@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2.1
+
+- Fix inverted keybinding
+
 ## 1.2.0
 
 - Update keybindings (Evaluate Math Expression)

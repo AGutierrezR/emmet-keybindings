@@ -75,3 +75,9 @@ Balance (Outward / Inward):
 | Wrap Individual Lines with Abbreviation | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>L</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>L</kbd> |
 | Wrap with Abbreviation                  | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>W</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>W</kbd> |
 | Show Emmet Commands                     | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>C</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>C</kbd> |
+| Decrement by 0.1                        | <kbd>Alt</kbd> + <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Alt</kbd> + <kbd>Cmd</kbd> + <kbd>↓</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↓</kbd> |
+| Decrement by 1                          | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>↓</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>↓</kbd> |
+| Decrement by 10                         | <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>↓</kbd> | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>↓</kbd> |
+| Increment by 0.1                        | <kbd>Alt</kbd> + <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Alt</kbd> + <kbd>Cmd</kbd> + <kbd>↑</kbd> | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> |
+| Increment by 1                          | <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Cmd</kbd> + <kbd>↑</kbd> | <kbd>Ctrl</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>↑</kbd> |
+| Increment by 10                         | <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>M</kbd>  <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>↑</kbd> | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>↑</kbd> |

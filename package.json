@@ -6,7 +6,7 @@
   "author": {
     "name": "Andrés Gutiérrez"
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "icon": "media/emmet-logo.png",
   "engines": {
     "vscode": "^1.50.0"
@@ -157,37 +157,37 @@
         "mac": "alt+cmd+m alt+cmd+up",
         "win": "ctrl+alt+m ctrl+alt+up",
         "key": "ctrl+alt+m ctrl+alt+up",
-        "command": "editor.emmet.action.decrementNumberByOneTenth"
+        "command": "editor.emmet.action.incrementNumberByOneTenth"
       },
       {
         "mac": "cmd+m cmd+up",
         "win": "cmd+m cmd+up",
         "key": "cmd+m cmd+up",
-        "command": "editor.emmet.action.decrementNumberByOne"
+        "command": "editor.emmet.action.incrementNumberByOne"
       },
       {
         "mac": "shift+cmd+m shift+cmd+up",
         "win": "ctrl+shift+m ctrl+shift+up",
         "key": "ctrl+shift+m ctrl+shift+up",
-        "command": "editor.emmet.action.decrementNumberByTen"
+        "command": "editor.emmet.action.incrementNumberByTen"
       },
       {
         "mac": "alt+cmd+m alt+cmd+down",
         "win": "ctrl+alt+m ctrl+alt+down",
         "key": "ctrl+alt+m ctrl+alt+down",
-        "command": "editor.emmet.action.incrementNumberByOneTenth"
+        "command": "editor.emmet.action.decrementNumberByOneTenth"
       },
       {
         "mac": "cmd+m cmd+down",
         "win": "ctrl+m ctrl+down",
         "key": "ctrl+m ctrl+down",
-        "command": "editor.emmet.action.incrementNumberByOne"
+        "command": "editor.emmet.action.decrementNumberByOne"
       },
       {
         "mac": "shift+cmd+m shift+cmd+down",
         "win": "ctrl+shift+m ctrl+shift+down",
         "key": "ctrl+shift+m ctrl+shift+down",
-        "command": "editor.emmet.action.incrementNumberByTen"
+        "command": "editor.emmet.action.decrementNumberByTen"
       }
     ]
   }
