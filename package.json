@@ -161,8 +161,8 @@
       },
       {
         "mac": "cmd+m cmd+up",
-        "win": "cmd+m cmd+up",
-        "key": "cmd+m cmd+up",
+        "win": "ctrl+m cmd+up",
+        "key": "ctrl+m cmd+up",
         "command": "editor.emmet.action.incrementNumberByOne"
       },
       {
